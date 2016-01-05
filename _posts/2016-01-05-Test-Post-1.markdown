@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Test Post 1"
+date:   2016-01-05 10:09 -0600
+categories: testing
+---
+
+Still learning to use Jekyll. Using the generic theme that is currently given. My end goal would be to create my own theme, but I might need to just fork to someone elses for now.
+
