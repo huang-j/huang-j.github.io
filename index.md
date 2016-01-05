@@ -1,7 +1,7 @@
 ---
 layout: page
-title: My Thoughts Dump
-tagline: Literally a dump
+title: My Thought Dump
+tagline: Adventures of a recent grad
 ---
 {% include JB/setup %}
 
@@ -17,6 +17,7 @@ tagline: Literally a dump
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        {{ post.excerpt }}
       </li>
     {% endfor %}
   </ul>
