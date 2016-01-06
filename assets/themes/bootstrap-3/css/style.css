@@ -15,13 +15,27 @@
 
 /* Jekyll Bootstrap Colors */
 h1, h2, h3, h4 {
-  color: #f22430;
+  color: #29E448;
 }
+
+h1 {
+  font-weight: bold;
+  font-family: serif;
+}
+
 #footer {
-  background-color: #fdcd60;
+  background-color: #BABCC0;
 }
 
+small {
+  font-style: italic;
+}
 
+/*box around posts*/
+.post-box {
+  border-style: solid;
+  border-color: #BABCC0;
+}
 
 /* posts index */
 .post > h3.title {

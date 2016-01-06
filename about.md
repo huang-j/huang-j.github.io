@@ -1,7 +1,8 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About Me
+header: About Me
+group: navigation
 ---
 
 TODO!
