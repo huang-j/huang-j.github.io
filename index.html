@@ -2,11 +2,22 @@
 layout: default
 ---
 
-<div class="home">
+<div id="nav">
+     <ul>
+         <li><a href="#about">About</a></li>
+         <li><a href="#posts">Posts</a></li>
+         <li><a href="#contact">Contact</a></li>
+     </ul>
+</div>
 
-  <h1 class="page-heading">Posts</h1>
+<div id="page1">
+  <a id="about" class="smooth"></a>
+  About content can go here
+</div>
 
-  <ul class="post-list">
+<div id="page2">
+  <a id="posts" class="smooth"></a>
+    <ul class="post-list">
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -17,7 +28,9 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+</div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div id="page3">
+  <a id="contact" class="smooth"></a>
+    Contact page content goes here.
 </div>
