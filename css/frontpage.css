@@ -1,0 +1,18 @@
+/**
+* This is primarily the CSS for the front page (doing the whole 1 page deal)
+**/
+
+#page1 {
+    background-color: #121894;
+    height: 1000px;
+}
+
+#page2 {
+    background-color: #FFFFFF;
+    height: 1000px;
+}
+
+#page3 {
+    background-color: #121894;
+    height: 1000px;
+}
