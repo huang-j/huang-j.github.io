@@ -2,17 +2,84 @@
 * This is primarily the CSS for the front page (doing the whole 1 page deal)
 **/
 
-#page1 {
-    background-color: #121894;
-    height: 1000px;
+/*
+* the nav bar
+*/
+#nav{
+    z-index: 0;
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 100%;
+    border-bottom: .5px solid #5462B7;
 }
 
-#page2 {
+#nav ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+#nav li {
+    display: inline;
+    float: left;
+}
+
+#nav a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+#nav a:hover {
+    background-color: #3D4784
+}
+
+/*
+* This is the banner at top
+*/
+#page0 {
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #5462B7;
+    height: 650px;
+}
+
+/*
+* the about me section
+*/
+#page1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-color: #FFFFFF;
     height: 1000px;
+    border-bottom: 1px solid #5462B7;
+}
+/*
+* blogs
+*/
+#page2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #FFFFFF;
+    height: 1000px;
+    border-bottom: 1px solid #5462B7
 }
 
+/*
+* contacts
+*/
 #page3 {
-    background-color: #121894;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #FFFFFF;
     height: 1000px;
+    border-bottom: 1px solid #5462B7
+}
+
+div {
+    var width = $(window).width() - 25;
+    $("#mydiv").width(width);
 }
