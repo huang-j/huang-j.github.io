@@ -24,7 +24,6 @@ paginate: 5
 
 # Build settings
 highlighter: rouge
-highlighter: true
 markdown: kramdown
 permalink: pretty
 tracking_id : 'UA-72038855-1'
