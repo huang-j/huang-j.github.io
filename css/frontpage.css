@@ -5,7 +5,7 @@
 /*
 * the nav bar
 */
-#nav{
+.navbar {
     z-index: 0;
     position: fixed;
     background-color: #FFFFFF;
@@ -13,50 +13,75 @@
     border-bottom: .5px solid #5462B7;
 }
 
-#nav ul {
+/*.nav{
     list-style-type:none;
     margin: 0;
     padding: 0;
     background-color: #FFFFFF;
-}
+}*/
 
-#nav li {
+.nav li {
     display: inline;
     float: left;
 }
 
-#nav a {
+.nav a {
     display: block;
-    padding: 8px;
+    /*padding: 8px;*/
     text-align: center;
     background-color: #FFFFFF;
 }
 
-#nav a:hover {
+.nav a:hover {
     background-color: #3D4784
 }
 
+
+
 /*
-* This is the banner at top
+* This is the banner at top .headbanner
 */
-#page0 {
+.indexbanner {
 
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #5462B7;
+    /*background-color: #5462B7;*/
     height: 650px;
+    background: linear-gradient(#3D4784, #5462B7);
+    background: -webkit-linear-gradient(#3D4784, #5462B7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3D4784, #5462B7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3D4784, #5462B7); /* For Firefox 3.6 to 15 */
+}
+.banner{
+
 }
 
+.row {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+.title2 {
+    color: #FFFFFF;
+    font-size: 70px;
+}
 /*
 * the about me section
 */
-#page1 {
+.page {
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: #FFFFFF;
     height: 1000px;
     border-bottom: 1px solid #5462B7;
 }
+
 /*
 * blogs
 */
@@ -77,9 +102,4 @@
     background-color: #FFFFFF;
     height: 1000px;
     border-bottom: 1px solid #5462B7
-}
-
-div {
-    var width = $(window).width() - 25;
-    $("#mydiv").width(width);
 }

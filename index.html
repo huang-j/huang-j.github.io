@@ -1,53 +1,5 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Temp title</title>
-    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-  ">
-
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="huang-j.github.io/">
-    <link rel="alternate" type="application/rss+xml" title="Temp title" href="huang-j.github.io/feed.xml">
-    <link rel="stylesheet" href="/css/frontpage.css">
-  </head>
-
-<div id="nav">
-     <ul>
-         <li><a href="#about">About</a></li>
-         <li><a href="#posts">Posts</a></li>
-         <li><a href="#contact">Contact</a></li>
-     </ul>
-</div>
-<div id="page0">
-  <a id="banner" class"smooth"></a>
-</div>
-<div id="page1">
-  <a id="about" class="smooth"></a>
-  About content can go here
-</div>
-
-<div id="page2">
-  <a id="posts" class="smooth"></a>
-    <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
-
-<div id="page3">
-  <a id="contact" class="smooth"></a>
-    Contact page content goes here.
-</div>
-</html>
+---
+layout: index
+section-type: index
+sitemap: priority 1.0
+---
