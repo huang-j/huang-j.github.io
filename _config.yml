@@ -38,4 +38,4 @@ pages_list:
 gems:
   - jekyll-paginate
 
-paginate_path: "/Blog/page:3/"
+paginate_path: "/Blog/page:num/"
