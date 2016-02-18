@@ -12,7 +12,7 @@ force-https: True
 description: >
   Yoink
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "huang-j.github.io" # the base hostname & protocol for your site
+url: "https://huang-j.github.io" # the base hostname & protocol for your site
 twitter_username: RiverOfHuang
 github_username: huang-j
 name: Jonathan
