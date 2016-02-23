@@ -2,11 +2,22 @@
 <section id="projects">
     <div class="page">
         <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h1>Projects</h1>
+            </div>
+        </div>
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
-                    <h1>Projects</h1>
-                    <p>Empty right now. I'm actually doing stuff, just haven't finished this part yet</p>
-                    {{ page.contents }}
+
+                    <ul class="list-unstyled">
+                    {% if site.github_username %}
+                        <li>
+                            <p>Github</p>
+                            {% include icon-github.html username=site.github_username %}
+                        </li>
+                    {% endif %}
+                    </ul>
                 </div>
             </div>
         </div>
