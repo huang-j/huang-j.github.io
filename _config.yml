@@ -11,8 +11,8 @@ email: jonayboy@gmail.com
 force-https: True
 description: >
   Yoink
-baseurl: /blog # the subpath of your site, e.g. /blog
-url: "https://huang-j.github.io" # the base hostname & protocol for your site
+# baseurl: /blog # the subpath of your site, e.g. /blog
+url: "https://huang-j.github.io/" # the base hostname & protocol for your site
 twitter_username: RiverOfHuang
 github_username: huang-j
 name: Jonathan

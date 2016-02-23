@@ -32,7 +32,7 @@ html {
     display: block;
     /*padding: 8px;*/
     text-align: center;
-    background-color: #FFFFFF;
+    background-color: rgba(225, 225, 225, .8), #FFFFFF;
 }
 
 .nav a:hover {
@@ -49,7 +49,7 @@ html {
     padding: 150px 0;
     z-index: 2;
     background-color: #5462B7;
-    height: 650px;
+    height: 20vw + 300px;
     background: linear-gradient(#3D4784, #5462B7);
     background: -webkit-linear-gradient(#3D4784, #5462B7); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#3D4784, #5462B7); /* For Opera 11.1 to 12.0 */
@@ -100,7 +100,7 @@ html {
     padding: 100px 0;
     z-index: 2;
     background-color: #5462B7;
-    height: 400px;
+    height: 15vw + 200px;
     background: linear-gradient(#3D4784, #5462B7);
     background: -webkit-linear-gradient(#3D4784, #5462B7); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#3D4784, #5462B7); /* For Opera 11.1 to 12.0 */
