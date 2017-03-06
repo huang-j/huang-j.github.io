@@ -8,8 +8,7 @@ html {
 * the nav bar
 */
 .navbar {
-    z-index: 0;
-    /*position: fixed;*/
+    z-index: 10;
     background-color: #FFFFFF;
     width: 100%;
     border-bottom: .5px solid #263238;
