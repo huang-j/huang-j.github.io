@@ -48,12 +48,12 @@ html {
     /*position: relative;*/
     padding: 150px 0;
     z-index: 2;
-    background-color: #5462B7;
+    background-color: #3F51B5;
     height: 20vw + 300px;
-    background: linear-gradient(#3D4784, #5462B7);
-    background: -webkit-linear-gradient(#3D4784, #5462B7); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#3D4784, #5462B7); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#3D4784, #5462B7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#5C6BC0, #3F51B5);
+    background: -webkit-linear-gradient(#5C6BC0, #3F51B5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#5C6BC0, #3F51B5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#5C6BC0, #3F51B5); /* For Firefox 3.6 to 15 */
     text-align: center;
     /*vertical-align: middle;*/
 }
