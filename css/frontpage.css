@@ -48,12 +48,12 @@ html {
     /*position: relative;*/
     padding: 150px 0;
     z-index: 2;
-    background-color: #1A237E;
+    background-color: #263238;
     height: 20vw + 300px;
-    background: linear-gradient(##3F51B5, #1A237E);
-    background: -webkit-linear-gradient(#3F51B5, #1A237E); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#3F51B5, #1A237E); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#3F51B5, #1A237E); /* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(##3F51B5, #1A237E);*/
+    /*background: -webkit-linear-gradient(#3F51B5, #1A237E); /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(#3F51B5, #1A237E); /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(#3F51B5, #1A237E); /* For Firefox 3.6 to 15 */
     text-align: center;
     /*vertical-align: middle;*/
 }
@@ -86,7 +86,7 @@ html {
 */
 .page {
     padding: 12.5vw 0;
-    background-color: #E8EAF6;
+    background-color: #ECEFF1;
     height: 100%;
     border-bottom: 1px solid #5462B7;
     font-size: 1.5vw    ;
@@ -99,13 +99,12 @@ html {
 .postbanner {
     padding: 100px 0;
     z-index: 2;
-    background-color: #1A237E;
+    background-color: #263238;
     height: 15vw + 200px;
-    background: linear-gradient(##3F51B5, #1A237E);
+    /*background: linear-gradient(##3F51B5, #1A237E);
     background: -webkit-linear-gradient(#3F51B5, #1A237E); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#3F51B5, #1A237E); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#3F51B5, #1A237E); /* For Firefox 3.6 to 15 */
-
+    /*background: -o-linear-gradient(#3F51B5, #1A237E); /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(#3F51B5, #1A237E); /* For Firefox 3.6 to 15 */
     text-align: left;
 
 }
