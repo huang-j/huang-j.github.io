@@ -10,7 +10,7 @@ html {
 .navbar {
     z-index: 0;
     /*position: fixed;*/
-    background-color: #E8EAF6;
+    background-color: #FFFFFF;
     width: 100%;
     border-bottom: .5px solid #5462B7;
     text-transform: uppercase;
