@@ -29,8 +29,8 @@ tracking_id : 'UA-72038855-1'
 # list of pages
 pages_list:
     About: 'about'
-    Projects: 'projects'
     Blog: 'latestpost'
+    Projects: 'projects'
     Contact: 'contact'
 
 gems:
