@@ -116,3 +116,7 @@ html {
     height: 100%;
     text-align: center;
 }
+
+.site-footer{
+    background-color: #263238;
+}
